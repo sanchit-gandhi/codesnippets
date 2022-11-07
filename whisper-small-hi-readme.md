@@ -55,7 +55,7 @@ More information needed
 The following hyperparameters were used during training:
 - learning_rate: 1e-05
 - train_batch_size: 16
-- eval_batch_size: 16
+- eval_batch_size: 8
 - seed: 42
 - optimizer: Adam with betas=(0.9,0.999) and epsilon=1e-08
 - lr_scheduler_type: linear
@@ -65,13 +65,13 @@ The following hyperparameters were used during training:
 
 ### Training results
 
-| Training Loss | Epoch | Step | Validation Loss | Wer    |
-|:-------------:|:-----:|:----:|:---------------:|:------:|
-| 0.1011        | 2.44  | 1000 | 0.3075          | 34.63 |
-| 0.0264        | 4.89  | 2000 | 0.3558          | 33.13 |
-| 0.0025        | 7.33  | 3000 | 0.4214          | 32.59 |
-| 0.0006        | 9.78  | 4000 | 0.4519          | 32.01 |
-| 0.0002        | 12.22 | 5000 | 0.4679          | 32.10 |
+| Training Loss | Epoch | Step | Validation Loss |  WER  |
+|:-------------:|:-----:|:----:|:---------------:|:-----:|
+|    0.1011     | 2.44  | 1000 |     0.3075      | 34.63 |
+|    0.0264     | 4.89  | 2000 |     0.3558      | 33.13 |
+|    0.0025     | 7.33  | 3000 |     0.4214      | 32.59 |
+|    0.0006     | 9.78  | 4000 |     0.4519      | 32.01 |
+|    0.0002     | 12.22 | 5000 |     0.4679      | 32.10 |
 
 ### Framework versions
 
